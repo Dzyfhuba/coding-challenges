@@ -12,7 +12,7 @@ This repository is dedicated to my daily coding challenges on Codewars. I aim to
 - C#  
 
 ## Days
-1. Does my number look big in this?
+1. Does my number look big in this?  
 https://www.codewars.com/kata/5287e858c6b5a9678200083c
 2. The highest profit wins!  
 https://www.codewars.com/kata/559590633066759614000063

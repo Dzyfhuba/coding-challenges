@@ -1,0 +1,12 @@
+{
+    "name": "ubaid/coding-challenges",
+    "require-dev": {
+        "phpunit/phpunit": "^11"
+    },
+    "authors": [
+        {
+            "name": "Dzyfhuba",
+            "email": "hafidz21ub@gmail.com"
+        }
+    ]
+}

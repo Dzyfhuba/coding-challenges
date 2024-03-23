@@ -1,19 +1,19 @@
 const { assert } = require("chai");
-const narcissistic = require("../1_javascript_narcissistic");
+const narcissistic = require(".");
 
-describe( "Example tests", function() {
-  
+describe("Narcissistic tests", function () {
+
   function dotest(input, expected) {
     const actual = narcissistic(input);
     assert.strictEqual(actual, expected, `Incorrect answer for value=${input}`)
   }
-  
-  it("Narcissistic numbers", function() {
-    dotest(  7, true);
+
+  it("Narcissistic numbers", function () {
+    dotest(7, true);
     dotest(153, true);
   });
-  
-  it("Not narcissistic numbers", function() {
+
+  it("Not narcissistic numbers", function () {
     dotest(122, false);
     dotest(487, false);
   });

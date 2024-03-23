@@ -5,11 +5,8 @@
   "main": "index.js",
   "type": "commonjs",
   "module": "esnext",
-  "directories": {
-    "test": "test"
-  },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha **/*_test.js"
   },
   "repository": {
     "type": "git",

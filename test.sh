@@ -18,7 +18,8 @@ run_test() {
     echo -e "\r$target tests:" $( [ $? -ne 0 ] && echo -e "\e[31mFAILED\e[0m" || echo -e "\e[32mSUCCESS\e[0m" )
 }
 
-run_test "1_javascript_narcissistic" "npm test -- --file 1_javascript_narcissistic/index_test.js"
+run_test "1_javascript_narcissistic" "npx mocha --file 1_javascript_narcissistic/index_test.js"
 run_test "2_golang_minmax" "ginkgo 2_golang_minmax/"
 run_test "3_php_spinwords" "./vendor/bin/phpunit 3_php_spinwords/*_test.php"
 run_test "4_java_squaredigits" "mvn -f 4_java_squaredigits/main/pom.xml test"
+run_test "5_typescript_isogram" "npx ts-mocha 5_typescript_isogram/index_test.ts"

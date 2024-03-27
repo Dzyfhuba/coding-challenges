@@ -1,3 +1,6 @@
 {
-  "java.configuration.updateBuildConfiguration": "interactive"
+  "java.configuration.updateBuildConfiguration": "interactive",
+  "rust-analyzer.linkedProjects": [
+    "7_rust_digpow/Cargo.toml"
+  ]
 }
